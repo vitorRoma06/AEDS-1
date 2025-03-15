@@ -2,19 +2,20 @@
 
 int main(){
 
-    int numFIbo = 1, numFIboA, count = 1, nums;
+    int numFIbo = 1, numFIboA = 0, count = 1, nums;
 
     printf("Quantos numeros FIbonacci:");
     scanf("%d", &nums);
-
-    printf("%d", numFIbo);
+    
 
     while(count <= nums){
 
-        numFIboA = numFIbo - 1;
-        numFIbo = numFIbo + numFIboA;
-
         printf("%d ", numFIbo);
+
+        numFIbo += numFIboA;
+        numFIboA = numFIbo - numFIboA;
+
         count++;
     }
+    return 0;
 }

@@ -15,4 +15,5 @@ int main(){
 
     printf("Total da soma dos numeros: %d", total);
 
+    return 0;
 }

@@ -25,4 +25,6 @@ int main(){
     }else{
         printf("Eh primo");
     }
+
+    return 0;
 }

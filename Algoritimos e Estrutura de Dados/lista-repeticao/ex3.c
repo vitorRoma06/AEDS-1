@@ -15,4 +15,6 @@ int main(){
 
     media = soma/count;
     printf("Media: %.1f", media);
+
+    return 0;
 }

@@ -11,4 +11,5 @@ int main(){
         printf("%d x %d = %d\n", n, count, n*count);
         count++;
     }
+    return 0;
 }
