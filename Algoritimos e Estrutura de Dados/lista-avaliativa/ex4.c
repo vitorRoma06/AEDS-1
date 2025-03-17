@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+
+    int num, fiboAntes = 0, fiboAtual = 1, aux;
+
+    printf("Digite um numero: ");
+    scanf("%d", &num);
+
+    if(num <= 0){
+        printf("Erro: Numero menor ou igual a zero");
+        return 1;
+    }
+
+    for(int i = 1; i < num; i++){
+        aux = fiboAtual;
+        fiboAtual += fiboAntes;
+        fiboAntes = aux;
+    }
+
+    printf("Para N = %d, o enesimo termo eh %d\n", num, fiboAntes);
+}
