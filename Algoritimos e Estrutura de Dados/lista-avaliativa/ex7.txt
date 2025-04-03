@@ -1,0 +1,22 @@
+7-
+    a) Para n = 7, o valor de count será 3.
+    b) Para n = 15, sera impresso "Olá" 3 vezes.
+
+Algoritmo 1:
+    1.
+        a) int count = 0; int i; -> Total: 2
+        b) count = 0; i = 0; i++(n vezes); count++(n/2 vezes) -> Total: 2 + n + n/2 = 2 + 3n/2 vezes
+    2.
+        a) n vezes
+        b) n vezes
+        c) Melhor caso(numero par): n/2 vezes 
+        d) Pior caso(numero impar): (n-1)/2 vezes
+Algoritmo 2:
+    1.
+        a) int i = 1; -> Total: 1
+        b) i = 1; i *= 2; -> 1 + log2(n) vezes;
+    2.
+        a) log2(n) vezes
+        b) log2(n) vezes
+        c) Melhor caso(ser um potencia de 2): log2(n) vez
+        d) Pior caso(estar entre duas potencias de 2): log2(n) + 1 vezes

@@ -2,7 +2,7 @@
 
 int main(){
 
-    int num, fiboAntes = 0, fiboAtual = 1, aux;
+    int num, fiboAnt = 0, fiboSuc = 1, aux;
 
     printf("Digite um numero: ");
     scanf("%d", &num);
@@ -13,10 +13,10 @@ int main(){
     }
 
     for(int i = 1; i < num; i++){
-        aux = fiboAtual;
-        fiboAtual += fiboAntes;
-        fiboAntes = aux;
+        aux = fiboSuc;
+        fiboSuc += fiboAnt;
+        fiboAnt = aux;
     }
 
-    printf("Para N = %d, o enesimo termo eh %d\n", num, fiboAntes);
+    printf("Para N = %d, o enesimo termo eh %d\n", num, fiboAnt);
 }
