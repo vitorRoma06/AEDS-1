@@ -10,7 +10,6 @@ int main(){
     for(i = tam - 1, j = 0; i >= 0 && j < tam; i--, j++){
         nomeInvertido[j] = nome[i];
     }
-
     nomeInvertido[j] = '\0';
 
     printf("%s\n", nome);
