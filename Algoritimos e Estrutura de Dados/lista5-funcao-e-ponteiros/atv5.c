@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <math.h>
 
 float calcularSoma(int n){
     float soma = 0.0;
     for(int i = 1; i<= n; i++){
-        soma += ((i*i)+1.0)/(i+3.0);
+        soma += ((pow((double)i, 2.0))+1.0)/(i+3.0);
     }
     return soma;
 }

@@ -8,9 +8,8 @@ int main(){
     fgets(nome, sizeof(nome), stdin);
     nome[strcspn(nome, "\n")] = '\0';
 
-    while(nome[numCaracteres] != '\0'){
+    for(int i = 0; nome[i] != '\0'; i++)
         numCaracteres++;
-    }
 
     printf("%d", numCaracteres);
 

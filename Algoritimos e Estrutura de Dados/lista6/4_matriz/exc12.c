@@ -8,7 +8,7 @@ int main(){
     int n;
     scanf("%d", &n);
 
-    float **v1 = (float**) calloc(n, sizeof(float*));
+    float **v1 = (float**) malloc(n * sizeof(float*));
 
     for(int i = 0; i < n; i++){
         v1[i] = (float*) calloc(n, sizeof(float));

@@ -25,11 +25,11 @@ int bonusCarisma(int carisma){
     }else if(carisma == 14 || carisma == 15){
         return 1;
     }else if(carisma == 6 || carisma == 7){
-        return 1;
+        return -1;
     }else if(carisma == 4 || carisma == 5){
-        return 2;
+        return -2;
     }else if(carisma == 3){
-        return 3;
+        return -3;
     }else{
         return 0;
     }
