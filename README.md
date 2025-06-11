@@ -1,6 +1,5 @@
 # Algoritmos e Estruturas de Dados 1 - PUC
-
-Bem-vindo ao repositório da disciplina **Algoritmos e Estruturas de Dados 1** do primeiro período de Engenharia de Software da PUC!
+Repositório da disciplina **Algoritmos e Estruturas de Dados 1** do primeiro período de Engenharia de Software da PUC!
 
 Aqui estão reunidas todas as listas de exercícios resolvidas durante o semestre, organizadas por temas e tópicos. O objetivo deste repositório é facilitar o acompanhamento dos conteúdos, a revisão dos conceitos e a prática de programação em C.
 
